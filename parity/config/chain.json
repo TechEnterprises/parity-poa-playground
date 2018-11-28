@@ -1,14 +1,21 @@
 {
-  "name": "parity-poa-playground",
+  "name": "poa-seednodes",
   "engine": {
     "authorityRound": {
       "params": {
         "stepDuration": "1",
         "validators": {
           "list": [
-            "0x00Bd138aBD70e2F00903268F3Db08f2D25677C9e",
-            "0x00Aa39d30F0D20FF03a22cCfc30B7EfbFca597C2",
-            "0x002e28950558fbede1a9675cb113f0bd20912019"
+            "0x007762609FB5EF14FD20Ec1d2FeE773b103c0862",
+            "0x00BBfC47629Ab9f6f7cbFb3990eaea4f3Fc2e968",
+            "0x001E29A4Bb982F6131Cb88cA60549bD692eA54Bd",
+            "0x00B787b42C5075413C2b9662BcE6ad6F8B11171d",
+            "0x00d5B2b0f79D460b8d96C691B0b5FE23f6e4F487",
+            "0x008bdBC40F45aC5a1600E2b300c653f1217501E0",
+            "0x00280c0C69ed349aDfA5dD51AF56546f73e815A4",
+            "0x0030a3939E74A8Bb63504B2F7f8eaA6D6Af29a80",
+            "0x009Ca79CE5911e8E3e7De742A7b9b8eC16CDAeA8",
+            "0x0034C80A112d24d386C733a4dAcC3e7dbC433730"
           ]
         },
         "validateScoreTransition": 1000000000,
@@ -48,34 +55,34 @@
 	  "0x0000000000000000000000000000000000000006": { "builtin": { "name": "alt_bn128_add", "activate_at": 5067000, "pricing": { "linear": { "base": 500, "word": 0 } } } },
 	  "0x0000000000000000000000000000000000000007": { "builtin": { "name": "alt_bn128_mul", "activate_at": 5067000, "pricing": { "linear": { "base": 40000, "word": 0 } } } },
 	  "0x0000000000000000000000000000000000000008": { "builtin": { "name": "alt_bn128_pairing", "activate_at": 5067000, "pricing": { "alt_bn128_pairing": { "base": 100000, "pair": 80000 } } } },
-    "0x6B0c56d1Ad5144b4d37fa6e27DC9afd5C2435c3B": {
+    "0x007762609FB5EF14FD20Ec1d2FeE773b103c0862": {
       "balance": "10000000000000000000000000000"
     },
-    "0x0011598De1016A350ad719D23586273804076774": {
+    "0x00BBfC47629Ab9f6f7cbFb3990eaea4f3Fc2e968": {
       "balance": "10000000000000000000000000000"
     },
-    "0x00eBF1c449Cc448a14Ea5ba89C949a24Fa805a14": {
+    "0x001E29A4Bb982F6131Cb88cA60549bD692eA54Bd": {
       "balance": "10000000000000000000000000000"
     },
-    "0x006B8d5F5c8Ad11E5E6Cf9eE6624433891430965": {
+    "0x00B787b42C5075413C2b9662BcE6ad6F8B11171d": {
       "balance": "10000000000000000000000000000"
     },
-    "0x009A1372f9E2D70014d7F31369F115FC921a87c8": {
+    "0x00d5B2b0f79D460b8d96C691B0b5FE23f6e4F487": {
       "balance": "10000000000000000000000000000"
     },
-    "0x0076ed2DD9f7dc78e3f336141329F8784D8cd564": {
+    "0x008bdBC40F45aC5a1600E2b300c653f1217501E0": {
       "balance": "10000000000000000000000000000"
     },
-    "0x006dB7698B897B842a42A1C3ce423b07C2656Ecd": {
+    "0x00280c0C69ed349aDfA5dD51AF56546f73e815A4": {
       "balance": "10000000000000000000000000000"
     },
-    "0x0012fc0db732dfd07a0cd8e4bedc6b160c9aedc5": {
+    "0x0030a3939E74A8Bb63504B2F7f8eaA6D6Af29a80": {
       "balance": "10000000000000000000000000000"
     },
-    "0x00f137e9bfe37cc015f11cec8339cc2f1a3ae3a6": {
+    "0x009Ca79CE5911e8E3e7De742A7b9b8eC16CDAeA8": {
       "balance": "10000000000000000000000000000"
     },
-    "0x00c2bc2f078e1dbafa4a1fa46929e1f2ca207f00": {
+    "0x0034C80A112d24d386C733a4dAcC3e7dbC433730": {
       "balance": "10000000000000000000000000000"
     },
     "0x000a3702732843418d83a03e65a3d9f7add58864": {
