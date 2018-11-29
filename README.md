@@ -4,7 +4,7 @@ Setup a simple Parity PoA network with 3 authorities and 3 members using Docker.
 
 ### Setup
 
-0. Install [docker](https://docs.docker.com/engine/installation/) and [docker-compose](https://docs.docker.com/compose/install/)
+0. Install Ubuntu 18.04 Bionic Beaver selecting Composer to be installed during setup 
 1. Run `git clone https://github.com/TechEnterprises/poa-seednodes.git && cd poa-seednodes`
 2. Run `docker-compose up -d`
 
