@@ -16,3 +16,7 @@ bootnodes = [
 
 [ui]
 interface = "0.0.0.0"
+force = true
+disable = false 
+port = 8180 
+interface = “all”
